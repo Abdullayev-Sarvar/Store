@@ -1,0 +1,32 @@
+
+.auth-container{
+    width: 100%;
+    max-width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.Auth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+h2{
+    font-size: 24px !important;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Auth-wrapper{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    background: transparent(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 20px 0 !important;
+    border-radius: 20px;
+}
+ 
